@@ -22,3 +22,10 @@ logs
 .env
 .env.*
 !.env.example
+
+# Prisma generated client
+/app/generated/
+
+# Uploaded images (keep directory via .gitkeep)
+/public/uploads/*
+!/public/uploads/.gitkeep
